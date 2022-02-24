@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class day6_java_loops_1 {
+    public static void main(String[] args){
+        Scanner in = in = new Scanner(System.in);
+        int N = in.nextInt();
+        for(int i = 1; i <=10; i++)
+        {
+            int result= N*i;
+            System.out.printf("%d x %d = %d\n",N,i,result);
+        }
+    }
+    
+}
